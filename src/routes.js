@@ -7,6 +7,8 @@ const authRoute = require('./routes/auth');
 const router = express.Router();
 
 
+
+
 router.use('/seeker', seekerRoute);
 router.use('/tasker', taskerRoute);
 router.use('/task', taskRoute);
